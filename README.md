@@ -52,11 +52,15 @@ La calculadora se adapta automáticamente a diferentes tamaños de pantalla, per
 ---
 
 ## 📂 Estructura del proyecto
+
 calculadora-web
 │
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
 ---
 ## ▶️ Cómo ejecutar el proyecto
