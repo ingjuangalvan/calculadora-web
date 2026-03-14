@@ -1,7 +1,15 @@
 let pantalla = document.getElementById("pantalla");
 let historial = document.getElementById("historial");
+let nuevoCalculo = false;
+
 
 function agregar(valor){
+
+    if(nuevoCalculo){
+        pantalla.value = "";
+        nuevoCalculo = false;
+    }
+
     pantalla.value += valor;
 }
 
@@ -26,6 +34,7 @@ function calcular(){
         historial.innerHTML += pantalla.value + " = " + resultado + "<br>";
 
         pantalla.value = resultado;
+        nuevoCalculo = true;
 
     }catch{
         pantalla.value="Error";
