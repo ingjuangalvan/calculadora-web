@@ -52,3 +52,33 @@ La calculadora se adapta automáticamente a diferentes tamaños de pantalla, per
 ---
 
 ## 📂 Estructura del proyecto
+calculadora-web
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+---
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio
+2. Abrir el archivo
+en cualquier navegador.
+
+---
+
+## 📸 Vista previa
+
+![alt text](image.png)
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Juan Galvan**
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso libre para fines educativos.
