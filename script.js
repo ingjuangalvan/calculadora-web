@@ -1,5 +1,4 @@
 let pantalla = document.getElementById("pantalla");
-let historial = document.getElementById("historial");
 let nuevoCalculo = false;
 
 
@@ -31,7 +30,6 @@ function calcular(){
 
         let resultado = eval(pantalla.value);
 
-        historial.innerHTML += pantalla.value + " = " + resultado + "<br>";
 
         pantalla.value = resultado;
         nuevoCalculo = true;
