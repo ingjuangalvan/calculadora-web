@@ -1,3 +1,29 @@
+/* Responsive para celulares */
+
+@media (max-width: 600px){
+
+.calculadora{
+width:90%;
+padding:20px;
+}
+
+.botones{
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+}
+
+button{
+height:60px;
+font-size:20px;
+}
+
+#pantalla{
+height:55px;
+font-size:24px;
+}
+
+}
+
 body{
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg,#1f1f1f,#3a3a3a);
