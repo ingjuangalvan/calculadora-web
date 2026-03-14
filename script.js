@@ -40,6 +40,9 @@ function calcular(){
         pantalla.value="Error";
     }
 }
+function porcentaje(){
+    pantalla.value = pantalla.value / 100;
+}
 
 function modo(){
     document.body.classList.toggle("light");
@@ -63,5 +66,7 @@ if(event.key=="Enter") calcular();
 if(event.key=="Backspace") borrar();
 
 if(event.key=="Escape") limpiar();
+if(event.key==".") agregar(".");
+if(event.key=="%") porcentaje();
 
 });

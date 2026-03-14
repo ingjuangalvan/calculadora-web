@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="modo()">🌙</button>
+
 <div class="calculadora">
+    <div class="top-bar">
+    <button class="modo-btn" onclick="modo()">🌙</button>
+    </div>
     <input type="text" id="pantalla" disabled>
     <div id="historial"></div>
     <div class="botones">
@@ -33,6 +36,8 @@
 <button class="igual" onclick="calcular()">=</button>
 
 <button class="numero" onclick="agregar('0')">0</button>
+<button class="numero" onclick="agregar('.')">.</button>
+<button class="operador" onclick="porcentaje()">%</button>
 
 </div>
 
